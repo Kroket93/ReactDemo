@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import Student from './student/Student';
 import Klaslokaal from './student/Klaslokaal';
+import Kattenfeitjes from './student/Kattenfeitjes';
 import './App.css';
 
 function App(props) {
@@ -11,6 +12,7 @@ function App(props) {
         
         <h2>Daar gaan we {props.name}</h2>
         <h3>Mijn favoriete kaassoort is {props.kaas}</h3>
+        <Kattenfeitjes/>
         <Klaslokaal/>
         <Student stoel="101" favorietedier="panda's"/>
         <Student stoel="99" favorietedier="penguins"/>
